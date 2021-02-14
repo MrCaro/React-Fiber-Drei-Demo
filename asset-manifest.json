@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/React-Fiber-Drei-Demo/static/css/main.3d61df3b.chunk.css",
-    "main.js": "/React-Fiber-Drei-Demo/static/js/main.88bccbe2.chunk.js",
-    "main.js.map": "/React-Fiber-Drei-Demo/static/js/main.88bccbe2.chunk.js.map",
-    "runtime-main.js": "/React-Fiber-Drei-Demo/static/js/runtime-main.29ab23a8.js",
-    "runtime-main.js.map": "/React-Fiber-Drei-Demo/static/js/runtime-main.29ab23a8.js.map",
-    "static/js/2.50a059ca.chunk.js": "/React-Fiber-Drei-Demo/static/js/2.50a059ca.chunk.js",
-    "static/js/2.50a059ca.chunk.js.map": "/React-Fiber-Drei-Demo/static/js/2.50a059ca.chunk.js.map",
-    "static/js/3.76ced634.chunk.js": "/React-Fiber-Drei-Demo/static/js/3.76ced634.chunk.js",
-    "static/js/3.76ced634.chunk.js.map": "/React-Fiber-Drei-Demo/static/js/3.76ced634.chunk.js.map",
+    "main.css": "/React-Fiber-Drei-Demo/static/css/main.986c634d.chunk.css",
+    "main.js": "/React-Fiber-Drei-Demo/static/js/main.98c3201f.chunk.js",
+    "main.js.map": "/React-Fiber-Drei-Demo/static/js/main.98c3201f.chunk.js.map",
+    "runtime-main.js": "/React-Fiber-Drei-Demo/static/js/runtime-main.ee9b7203.js",
+    "runtime-main.js.map": "/React-Fiber-Drei-Demo/static/js/runtime-main.ee9b7203.js.map",
+    "static/js/2.a042163b.chunk.js": "/React-Fiber-Drei-Demo/static/js/2.a042163b.chunk.js",
+    "static/js/2.a042163b.chunk.js.map": "/React-Fiber-Drei-Demo/static/js/2.a042163b.chunk.js.map",
+    "static/js/3.8741589c.chunk.js": "/React-Fiber-Drei-Demo/static/js/3.8741589c.chunk.js",
+    "static/js/3.8741589c.chunk.js.map": "/React-Fiber-Drei-Demo/static/js/3.8741589c.chunk.js.map",
     "index.html": "/React-Fiber-Drei-Demo/index.html",
-    "static/css/main.3d61df3b.chunk.css.map": "/React-Fiber-Drei-Demo/static/css/main.3d61df3b.chunk.css.map",
-    "static/js/2.50a059ca.chunk.js.LICENSE.txt": "/React-Fiber-Drei-Demo/static/js/2.50a059ca.chunk.js.LICENSE.txt"
+    "static/css/main.986c634d.chunk.css.map": "/React-Fiber-Drei-Demo/static/css/main.986c634d.chunk.css.map",
+    "static/js/2.a042163b.chunk.js.LICENSE.txt": "/React-Fiber-Drei-Demo/static/js/2.a042163b.chunk.js.LICENSE.txt",
+    "static/media/NOVELO_EARTH.a6ef1301.glb": "/React-Fiber-Drei-Demo/static/media/NOVELO_EARTH.a6ef1301.glb"
   },
   "entrypoints": [
-    "static/js/runtime-main.29ab23a8.js",
-    "static/js/2.50a059ca.chunk.js",
-    "static/css/main.3d61df3b.chunk.css",
-    "static/js/main.88bccbe2.chunk.js"
+    "static/js/runtime-main.ee9b7203.js",
+    "static/js/2.a042163b.chunk.js",
+    "static/css/main.986c634d.chunk.css",
+    "static/js/main.98c3201f.chunk.js"
   ]
 }
