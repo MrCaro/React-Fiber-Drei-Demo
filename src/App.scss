@@ -16,3 +16,19 @@ body,
 body {
     background-color: #202020;
 }
+
+.planet-info-wrapper {
+    position: absolute;
+    left: 5rem;
+    right: 5rem;
+    bottom: 5rem;
+    line-height: 2rem;
+
+    h1 {
+        text-transform: uppercase;
+    }
+}
+
+.hide {
+    display: none;
+}
