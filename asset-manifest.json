@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React-Fiber-Drei-Demo/static/css/main.6d53f44e.chunk.css",
-    "main.js": "/React-Fiber-Drei-Demo/static/js/main.805ff29f.chunk.js",
-    "main.js.map": "/React-Fiber-Drei-Demo/static/js/main.805ff29f.chunk.js.map",
+    "main.css": "/React-Fiber-Drei-Demo/static/css/main.1a077111.chunk.css",
+    "main.js": "/React-Fiber-Drei-Demo/static/js/main.5068adf9.chunk.js",
+    "main.js.map": "/React-Fiber-Drei-Demo/static/js/main.5068adf9.chunk.js.map",
     "runtime-main.js": "/React-Fiber-Drei-Demo/static/js/runtime-main.ee9b7203.js",
     "runtime-main.js.map": "/React-Fiber-Drei-Demo/static/js/runtime-main.ee9b7203.js.map",
     "static/js/2.d30617f5.chunk.js": "/React-Fiber-Drei-Demo/static/js/2.d30617f5.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.8741589c.chunk.js": "/React-Fiber-Drei-Demo/static/js/3.8741589c.chunk.js",
     "static/js/3.8741589c.chunk.js.map": "/React-Fiber-Drei-Demo/static/js/3.8741589c.chunk.js.map",
     "index.html": "/React-Fiber-Drei-Demo/index.html",
-    "static/css/main.6d53f44e.chunk.css.map": "/React-Fiber-Drei-Demo/static/css/main.6d53f44e.chunk.css.map",
+    "static/css/main.1a077111.chunk.css.map": "/React-Fiber-Drei-Demo/static/css/main.1a077111.chunk.css.map",
     "static/js/2.d30617f5.chunk.js.LICENSE.txt": "/React-Fiber-Drei-Demo/static/js/2.d30617f5.chunk.js.LICENSE.txt",
     "static/media/Mars_1239.1dd959ff.glb": "/React-Fiber-Drei-Demo/static/media/Mars_1239.1dd959ff.glb",
     "static/media/NOVELO_EARTH.a6ef1301.glb": "/React-Fiber-Drei-Demo/static/media/NOVELO_EARTH.a6ef1301.glb"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.ee9b7203.js",
     "static/js/2.d30617f5.chunk.js",
-    "static/css/main.6d53f44e.chunk.css",
-    "static/js/main.805ff29f.chunk.js"
+    "static/css/main.1a077111.chunk.css",
+    "static/js/main.5068adf9.chunk.js"
   ]
 }
