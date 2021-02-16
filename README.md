@@ -1,6 +1,14 @@
-# React Three Fiber and React Three Drei
+# React Three Fiber and React Drei
 
-Creating an interactive 3D scene with Three packages
+Creating an interactive Solar System.
+
+Credit for 3D models
+
+- [Earth](https://poly.google.com/view/1I5ip-3VOfv)
+
+- [Mars](https://poly.google.com/view/dsrYdi4GZ8U)
+
+3D models [here](https://poly.google.com/)
 
 
 

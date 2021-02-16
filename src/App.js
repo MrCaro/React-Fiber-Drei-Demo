@@ -115,7 +115,7 @@ function App() {
             <OrbitControls />
         </Canvas>
         <DisplayPlanetInfo 
-            display={visibilityPlanetInfo ? "" : "hide"}  
+            display={visibilityPlanetInfo ? "show" : "hide"}  
             planet={showPlanetInfo} 
         />
     </>
