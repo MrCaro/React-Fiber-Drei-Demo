@@ -57,9 +57,8 @@ const PlanetMars = (props) => {
 const DisplayTips = () => {
     return (
         <div className="tips-wrapper">
-            <h1>
-                Solar System
-            </h1>
+            <h1>Solar System</h1>
+            <p>use your mouse to rotate, scroll and zoom through the solar system</p>
         </div>
     )
 }
