@@ -8,6 +8,8 @@ Credit for 3D models
 
 - [Mars](https://poly.google.com/view/dsrYdi4GZ8U)
 
+- [Jupiter](https://poly.google.com/view/e_2JJbbD6fU)
+
 3D models [here](https://poly.google.com/)
 
 

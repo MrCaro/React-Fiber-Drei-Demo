@@ -7,8 +7,30 @@ import { useSpring, a } from 'react-spring/three';
 
 import './App.scss';
 import PlanetsData from './data/planets.json';
-import Earth from './3d/NOVELO_EARTH.glb';
 import Mars from './3d/Mars_1239.glb';
+import Earth from './3d/NOVELO_EARTH.glb';
+import Jupiter from './3d/Jupiter.glb'
+
+const PlanetMars = (props) => {
+    const group = useRef(null);
+    const [expand, setExpand] = useState(false);
+
+    const { nodes, materials } = useGLTF(Mars);
+    const scaleValue = [0.2, 0.2, 0.2];
+
+    const propClick = useSpring({
+        scale: expand ? [0.4, 0.4, 0.4] : scaleValue
+    });
+
+    useFrame(() => (group.current.rotation.y += 0.004));
+
+    return (
+        <group ref={group} {...props} dispose={null}>
+            <a.mesh onClick={() => setExpand(!expand)} scale={propClick.scale} material={materials['05___Default']} geometry={nodes['buffer-0-mesh-0'].geometry} />
+            <a.mesh onClick={() => setExpand(!expand)} scale={propClick.scale} material={materials['04___Default']} geometry={nodes['buffer-0-mesh-0_1'].geometry} />
+        </group>
+    )
+}
 
 const PlanetEarth = (props) => {
     const group = useRef(null);
@@ -33,24 +55,27 @@ const PlanetEarth = (props) => {
     )
 }
 
-const PlanetMars = (props) => {
+const PlanetJupiter = (props) => {
     const group = useRef(null);
     const [expand, setExpand] = useState(false);
 
-    const { nodes, materials } = useGLTF(Mars);
+    const { nodes, materials } = useGLTF(Jupiter);
     const scaleValue = [0.2, 0.2, 0.2];
 
     const propClick = useSpring({
         scale: expand ? [0.4, 0.4, 0.4] : scaleValue
     });
 
-    useFrame(() => (group.current.rotation.y += 0.001));
+    useFrame(() => (group.current.rotation.y += 0.0008));
 
     return (
-        <group ref={group} {...props} dispose={null}>
-            <a.mesh onClick={() => setExpand(!expand)} scale={propClick.scale} material={materials['05___Default']} geometry={nodes['buffer-0-mesh-0'].geometry} />
-            <a.mesh onClick={() => setExpand(!expand)} scale={propClick.scale} material={materials['04___Default']} geometry={nodes['buffer-0-mesh-0_1'].geometry} />
+    <group ref={group} {...props} dispose={null}>
+        <group position={[-0.98, 103.49, 0.34]}>
+        <group position={[0.98, -103.49, -0.34]}>
+            <a.mesh onClick={() => setExpand(!expand)} scale={propClick.scale} material={materials.Mat} geometry={nodes['node-0'].geometry} />
         </group>
+        </group>
+    </group>
     )
 }
 
@@ -101,17 +126,23 @@ function App() {
             <pointLight position={[-10, 0, -20]} intensity={.5}/>
             <pointLight position={[0, -10, 0]} intensity={1.5}/>
             <Suspense fallback={null}>
-                <PlanetEarth 
+                <PlanetMars 
                     key={0} 
                     onClick={() => {setShowPlanetInfo(PlanetsData[0]); setVisibilityPlanetInfo(!visibilityPlanetInfo)}} 
                     position={PlanetsData[0].position}
                     planet={PlanetsData[0]}
                 />
-                <PlanetMars 
+                <PlanetEarth 
                     key={1} 
                     onClick={() => {setShowPlanetInfo(PlanetsData[1]); setVisibilityPlanetInfo(!visibilityPlanetInfo)}} 
                     position={PlanetsData[1].position}
                     planet={PlanetsData[1]}
+                />
+                <PlanetJupiter 
+                    key={2} 
+                    onClick={() => {setShowPlanetInfo(PlanetsData[2]); setVisibilityPlanetInfo(!visibilityPlanetInfo)}} 
+                    position={PlanetsData[2].position}
+                    planet={PlanetsData[2]}
                 />
             </Suspense>
             <Stars
@@ -121,7 +152,10 @@ function App() {
                 factor={4} 
                 saturation={0} 
             />
-            <OrbitControls />
+            <OrbitControls 
+                minDistance={50}
+                maxDistance={150}
+            />
         </Canvas>
         <DisplayTips />
         <DisplayPlanetInfo 
