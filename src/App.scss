@@ -16,6 +16,7 @@ body,
 body {
     background-color: #202020;
     font-family: "Roboto";
+    line-height: 2rem;
 }
 
 .planet-info-wrapper {
@@ -23,9 +24,8 @@ body {
     left: 5rem;
     right: 5rem;
     bottom: 5rem;
-    line-height: 2rem;
-
-    h1 {
+  
+    h2 {
         text-transform: uppercase;
     }
 }
@@ -40,4 +40,11 @@ body {
     visibility: none;
     opacity: 0;
     transition: opacity 0s linear;
+}
+
+.tips-wrapper {
+    position: absolute;
+    left: 5rem;
+    right: 5rem;
+    top: 5rem;
 }

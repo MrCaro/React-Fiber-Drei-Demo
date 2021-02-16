@@ -54,11 +54,21 @@ const PlanetMars = (props) => {
     )
 }
 
+const DisplayTips = () => {
+    return (
+        <div className="tips-wrapper">
+            <h1>
+                Solar System
+            </h1>
+        </div>
+    )
+}
+
 const DisplayPlanetInfo = (props) => {                                                                   
     return (
         <div className={props.display}>
             <div className="planet-info-wrapper">
-                <h1>{props.planet.name}</h1>
+                <h2>{props.planet.name}</h2>
                 <p>{props.planet.info}</p>
             </div>
         </div>
@@ -114,6 +124,7 @@ function App() {
             />
             <OrbitControls />
         </Canvas>
+        <DisplayTips />
         <DisplayPlanetInfo 
             display={visibilityPlanetInfo ? "show" : "hide"}  
             planet={showPlanetInfo} 
