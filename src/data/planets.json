@@ -2,11 +2,13 @@
     {
         "name" : "earth",
         "info" : "While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal.",
-        "position" : [0, 0, 0]
+        "position" : [0, 0, 0],
+        "id" : 0
     },
     {
         "name" : "mars",
         "info" : "​Mars is the fourth planet from the Sun – a dusty, cold, desert world with a very thin atmosphere. Mars is also a dynamic planet with seasons, polar ice caps, canyons, extinct volcanoes, and evidence that it was even more active in the past.",
-        "position" : [-40, 0, 0]
+        "position" : [-40, 0, 0],
+        "id" : 1
     }
 ]
