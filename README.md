@@ -2,7 +2,9 @@
 
 Creating an interactive Solar System.
 
-Credit for 3D models
+## Resources
+
+3D models
 
 - [Earth](https://poly.google.com/view/1I5ip-3VOfv)
 
@@ -10,7 +12,13 @@ Credit for 3D models
 
 - [Jupiter](https://poly.google.com/view/e_2JJbbD6fU)
 
-3D models [here](https://poly.google.com/)
+visit site [here](https://poly.google.com/)
+
+- - - 
+
+Planets info
+
+[NASA](https://solarsystem.nasa.gov/planets/jupiter/overview/)
 
 
 
