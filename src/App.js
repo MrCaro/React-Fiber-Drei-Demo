@@ -26,8 +26,10 @@ const PlanetMars = (props) => {
 
     return (
         <group ref={group} {...props} dispose={null}>
-            <a.mesh onClick={() => setExpand(!expand)} scale={propClick.scale} material={materials['05___Default']} geometry={nodes['buffer-0-mesh-0'].geometry} />
-            <a.mesh onClick={() => setExpand(!expand)} scale={propClick.scale} material={materials['04___Default']} geometry={nodes['buffer-0-mesh-0_1'].geometry} />
+            <a.mesh onClick={() => setExpand(!expand)}>
+                <a.mesh  scale={propClick.scale} material={materials['05___Default']} geometry={nodes['buffer-0-mesh-0'].geometry} />
+                <a.mesh  scale={propClick.scale} material={materials['04___Default']} geometry={nodes['buffer-0-mesh-0_1'].geometry} />
+            </a.mesh>
         </group>
     )
 }
@@ -48,8 +50,10 @@ const PlanetEarth = (props) => {
     return (
         <>
         <group ref={group} {...props} dispose={null} >
-            <a.mesh onClick={() => setExpand(!expand)} scale={propClick.scale} material={materials['02___Default']} geometry={nodes['buffer-0-mesh-0'].geometry} />
-            <a.mesh onClick={() => setExpand(!expand)} scale={propClick.scale} material={materials.Mat} geometry={nodes['buffer-0-mesh-0_1'].geometry} />
+            <a.mesh onClick={() => setExpand(!expand)}>
+                <a.mesh scale={propClick.scale} material={materials['02___Default']} geometry={nodes['buffer-0-mesh-0'].geometry} />
+                <a.mesh scale={propClick.scale} material={materials.Mat} geometry={nodes['buffer-0-mesh-0_1'].geometry} />
+            </a.mesh>
         </group>
         </>
     )
